@@ -1,12 +1,6 @@
----
-layout: default
----
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
 
 This is going to be my collection of projects that are related to cybersecurity starting with basics to advance. Please join me on this journey and try some out for yourself !!
 
