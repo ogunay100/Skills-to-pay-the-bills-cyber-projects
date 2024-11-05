@@ -12,9 +12,17 @@ Step 1 create a azure vm by first makeing a recorce group to house all our recor
 
 ![Branching](Screenshot 2024-11-05 092438.png)
 
+Step 2 Add microsoft sentanel to your logs work space 
+
 ![Branching](Screenshot 2024-11-05 093056.png)
 
 As you can see my resource group is house all the things i need to run my vm including my log analytics work space witch is needed to send the event info to my siem.
+
+
+Step 3 We need to setp up a data conector to our log work space so that it can now send the data logs to your siem. we will do this by going into the conent hub that is is microsoft sentinel and installing the "Windows security events" and make a data colection rule and conect it to our vm so it can pull the data it needs 
+
+![Branching](Screenshot 2024-11-05 102020.png)
+
 ## Header 2
 
 > This is a blockquote following a header.
