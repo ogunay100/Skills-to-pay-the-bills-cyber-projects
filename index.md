@@ -16,7 +16,7 @@ This is an example of a live SIEM that is monitoring a windows 10 vm for rdp log
 
 Step 1 create a azure vm by first makeing a recorce group to house all our recorces for the vm.
 
-![Octocat](Screenshot 2024-11-05 093056.png
+
 
 Screenshot 2024-11-05 093056.png
 
@@ -105,7 +105,7 @@ end
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Branching](Screenshot 2024-11-05 093056.png)
 
 
 ### Definition lists can be used with HTML syntax.
