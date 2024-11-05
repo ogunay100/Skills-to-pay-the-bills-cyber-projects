@@ -18,7 +18,7 @@ Step 1 create a azure vm by first makeing a recorce group to house all our recor
 
 
 
-Screenshot 2024-11-05 093056.png
+![Branching](Screenshot 2024-11-05 093056.png)
 
 As you can see my resource group is house all the things i need to run my vm including my log analytics work space witch is needed to send the event info to my siem.
 ## Header 2
@@ -105,7 +105,7 @@ end
 
 ### Large image
 
-![Branching](Screenshot 2024-11-05 093056.png)
+
 
 
 ### Definition lists can be used with HTML syntax.
