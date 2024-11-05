@@ -8,12 +8,19 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This is going to be my collection of projects that are related to cybersecurity starting with basics to advance. Please join me on this journey and try some out for yourself !!
 
-# Header 1
+# Live SIEM Monitor for RDP log ins 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This is an example of a live SIEM that is monitoring a windows 10 vm for rdp login attempts. 
 
+Step 1 create a azure vm by first makeing a recorce group to house all our recorces for the vm.
+
+Screenshot 2024-11-05 092438.png
+
+Screenshot 2024-11-05 093056.png
+
+As you can see my resource group is house all the things i need to run my vm including my log analytics work space witch is needed to send the event info to my siem.
 ## Header 2
 
 > This is a blockquote following a header.
