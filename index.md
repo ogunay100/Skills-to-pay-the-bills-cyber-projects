@@ -6,7 +6,7 @@ This is going to be my collection of projects that are related to cybersecurity 
 
 # Live SIEM Monitor for RDP log ins 
 
-This is an example of a live SIEM that is monitoring a windows 10 vm for rdp login attempts. 
+This is an example of a live SIEM that is monitoring a windows 10 vm for rdp logins. 
 
 Step 1 create a azure vm by first makeing a recorce group to house all our recorces for the vm.
 
@@ -23,7 +23,23 @@ Step 3 We need to setp up a data conector to our log work space so that it can n
 
 ![Branching](Screenshot 2024-11-05 102020.png)
 
+Step 4 We need to create a rule in our sentinel for successful logins via RDP. we will go into logs and start a new rule that will run every 5 minutes !
+
+![Branching](Screenshot 2024-10-31 103223.png)
+
+![Branching](Screenshot 2024-10-31 103322.png)
+
+Step 4 Lets turn on our vm and let it run now that everything is in place this should start colecting log ins and triggering alerts for us !
+
+![Branching](Screenshot 2024-11-05 102806.png)
+
+AS you can see it worked we are able to know pull our logs from our vm and see the alerts in real time on our sentinel page !!!
+
+
+
+
 ## Header 2
+
 
 > This is a blockquote following a header.
 >
